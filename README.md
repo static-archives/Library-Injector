@@ -26,7 +26,7 @@ This means you can only define one function body per source file (.c/.cpp/.asm).
 But you can put all your extern function declarations in the same header file.
 
 # Notice
-Make sure to use extern "C" for any functions or variable definitions, so that their symbols are easy to locate.
+I highly recommend using extern "C" for any and all function or variable definitions in headers, so that their symbols are easy to locate.
 
 
 
