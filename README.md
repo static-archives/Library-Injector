@@ -11,6 +11,7 @@ The problem with DLL's is that they're usually compiled with heavy runtimes by d
 This adds 10kb to the DLL right off the bat. There's also no way to disable it.
 
 By compiling as a library file, it outputs the absolute bare-minimum. We get only the code that we write.
+This can be used for injecting ASM stubs with ease, using the vs masm assembler.
 
 # What's good about this injector?
 This archive injector gives you full control of the symbols, data and code in your binary, including where it will map your binary to and from.
